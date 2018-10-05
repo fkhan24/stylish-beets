@@ -9,5 +9,7 @@ html {
 
 h1 {
   font-size: 1.5rem;
-  font-family:
+  font-family:"PT Sans", sans-serif;
+  font-weight: bold;
+  color: #3f1622;
 }
