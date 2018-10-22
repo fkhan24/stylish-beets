@@ -12,8 +12,11 @@ h1 {
   color: #3f1622;
 }
 
-h1, h2 {
+main h2 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
   color: #3f1622;
+  font-weight: bold;
 }
 
 a {
@@ -54,32 +57,34 @@ figcaption {
 .intro {
   font-family: "PT Serif", serif;
   font-weight: bold;
-  color: #3f1622;
-}
-
-p {
-  font-size: 1.5rem;
   color: #222;
 }
 
+p {
+  font-size: 1.125rem;
+  color: #222;
+}
+
+.beta {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  color: #3f1622;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
 blockquote {
-  font-family: "PT Sans", serif;
+  font-family: "PT Serif", serif;
   font-style: italic;
   font-size: 1.5rem;
   text-align: left;
-}
-
-strong {
   font-weight: normal;
+  text-decoration: none;
 }
 
 cite {
   font-size: .8rem;
-}
-
-h2 {
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.125em;
+  font-style: italic;
 }
 
 dl {
