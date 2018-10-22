@@ -11,10 +11,83 @@ h1 {
   font-size: 1.5rem;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  color; #3f1622;
+  color: #3f1622;
 }
 
 a {
   text-decoration: none;
   color: #8f2440;
+}
+
+h2 a {
+  color: #3f1622;
+}
+
+nav ol {
+  color: #8f2440;
+}
+
+nav li {
+  list-style-type: none;
+  font-family: "PT Sans", sans-serif;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+header ol {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: .8em;
+  text-align: center;
+}
+
+.intro {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  color: #3f1622;
+}
+
+p {
+  font-size: .8em;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+cite {
+  font-size: .8rem;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125em;
+}
+
+dl {
+  font-size: .8em;
+}
+
+ul li {
+  font-size: .8em;
+  list-style-type: circle;
+}
+
+main ol li {
+  font-size: .8em;
+  list-style-type: lower-greek;
 }
