@@ -1,10 +1,8 @@
 html {
   background-color: #c9b5ab;
-  font-family: "PT Sans", sans-serif;
   font-family: "PT Serif", serif;
-  font-weight: normal;
-  line-height: 1.5;
-  width: 100%;
+  line-height: 1.58;
+  color: #222;
 }
 
 h1 {
@@ -14,17 +12,15 @@ h1 {
   color: #3f1622;
 }
 
-a {
-  text-decoration: none;
-  color: #8f2440;
-}
-
-h2 a {
+h1, h2 {
   color: #3f1622;
 }
 
-nav ol {
+a {
+  text-decoration: none;
   color: #8f2440;
+  font-size: 1.125rem;
+  font-family: "PT Sans", sans-serif;
 }
 
 nav li {
@@ -38,7 +34,7 @@ nav a {
 
 a:hover {
   color: #3f1622;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 header ol {
@@ -50,7 +46,8 @@ img {
 }
 
 figcaption {
-  font-size: .8em;
+  font-size: .95rem;
+  font-style: italic;
   text-align: center;
 }
 
@@ -61,12 +58,19 @@ figcaption {
 }
 
 p {
-  font-size: .8em;
+  font-size: 1.5rem;
+  color: #222;
 }
 
 blockquote {
+  font-family: "PT Sans", serif;
   font-style: italic;
   font-size: 1.5rem;
+  text-align: left;
+}
+
+strong {
+  font-weight: normal;
 }
 
 cite {
@@ -82,6 +86,22 @@ dl {
   font-size: .8em;
 }
 
+dt {
+  font-weight: bold;
+}
+
+dd > data {
+  font-weight: normal;
+}
+
+dt > data {
+  font-weight: normal;
+}
+
+data {
+  font-family: "PT Serif", serif;
+}
+
 ul li {
   font-size: .8em;
   list-style-type: circle;
@@ -90,4 +110,13 @@ ul li {
 main ol li {
   font-size: .8em;
   list-style-type: lower-greek;
+}
+
+nav, h1, h2, dd {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
+}
+
+footer {
+  font-size: .8rem;
 }
